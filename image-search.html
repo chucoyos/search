@@ -15,7 +15,7 @@
     <title>Google Search</title>
 </head>
 
-<body>
+<body class="site">
     <!--Navigation-->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -40,23 +40,69 @@
     </nav>
     <!--End Navigation-->
 
-    <!--Image Container-->
-    <div class="container">
-        <div class="container img-div">
-            <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="Google">
+    <!--Site-content-->
+    <div class="site-content">
+        <!--Image Container-->
+        <div class="container">
+            <div class="container img-div">
+                <img class="img" src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="Google">
+            </div>
         </div>
+        <!--End Image Container-->
+
+        <!--Form Container-->
+        <div class="container form">
+            <div>
+                <img class="lens" src="https://cdn.pixabay.com/photo/2017/01/13/01/22/magnifying-glass-1976105_960_720.png" alt="search">
+            </div>
+            <div>
+                <form action="https://www.google.com/search">
+                    <input type="text" name="q" class="center-box" autofocus>
+                </form>
+            </div>
+            <div>
+                <img class="mic" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/534px-Google_mic.svg.png" alt="microphone">
+            </div>
+        </div>
+        <!--Form Container-->
+
+        <!--Button div-->
+        <div class="container two-button-div">
+
+            <div>
+                <button class="search-btn" type="submit">Buscar con Google</button>
+            </div>
+            <div>
+                <button class="search-btn" type="submit">Me siento con suerte</button>
+            </div>
+
+        </div>
+        <!--End Button div-->
+
     </div>
-    <!--End Image Container-->
+    <!--Ends site-content-->
 
-    <!--Form Container-->
-    <div class="container">
-        <form action="https://www.google.com/search">
-            <input type="text" name="q" class="center-box" autofocus>
-        </form>
+    <!--Footer 1-->
+    <div class="container-fluid footer">
+        <p>México</p>
     </div>
-    <!--Form Container-->
+    <!--End Footer 1-->
 
-
+    <!--Footer 2-->
+    <footer class="container-fluid footer">
+        <div class="left-align">
+            <p>Publicidad</p>
+            <p>Negocios</p>
+            <p>Sobre Google</p>
+            <p>Como funciona la búsqueda</p>
+        </div>
+        <div class="right-align">
+            <p>Privacidad</p>
+            <p>Condiciones</p>
+            <p>Preferencias</p>
+        </div>
+    </footer>
+    <!--Footer 2-->
 </body>
 
 </html>
