@@ -18,11 +18,18 @@
 <body>
     <!--Navigation-->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <ul class="navbar-nav ml-auto justify-content-start">
+            <a class="navbar-brand" href="#">
+                <img class="brand" src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" width="30" height="30" alt="" loading="lazy">
+            </a>
+        </ul>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
+
             <ul class="navbar-nav ml-auto justify-content-end">
+
                 <li class="nav-item">
                     <a class="nav-link" href="index.html">Google</a>
                 </li>
@@ -40,22 +47,73 @@
     </nav>
     <!--End Navigation-->
 
-    <!--Image Container-->
-    <div class="container">
-        <div class="container img-div">
-            <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="Google">
-        </div>
+    <div class="container-fluid appbar">
+        <label class="adv-label">Advanced Search</label>
     </div>
-    <!--End Image Container-->
 
-    <!--Form Container-->
-    <div class="container">
-        <form action="https://www.google.com/search" autocomplete="off">
-            <input type="text" name="q" class="center-box" autofocus>
+    <div class="container-fluid form-cont">
+        <form action="">
+            <div class="container-fluid">
+
+                <div class="row">
+                    <div class="outer-div col-2"><span class="find">Find pages with...</span></div>
+                    <div class="middle-div col-6"></div>
+                    <div class="outer-div col-4"><span class="todo-label">To do this in the search box.</span></div>
+                </div>
+
+                <div class="row">
+                    <div class="col-2"><span class="left-inner">all these words:</span></div>
+                    <div class="col-6"><input class="jfk-textinput" value="" autofocus="autofocus" id="xX4UFf" name="as_q" type="text"></div>
+                    <div class="right-inner col-4">Type the important words: <span class="right-span">tri-colour rat terrier </span></div>
+                </div>
+
+                <div class="row">
+                    <div class="col-2"><span class="left-inner">this exact word or phrase:</span></div>
+                    <div class="col-6"><input class="jfk-textinput" value="" autofocus="autofocus" id="xX4UFf" name="as_q" type="text"></div>
+                    <div class="right-inner col-4">Put exact words in quotes: <span class="right-span"> "rat terrier" </span></div>
+                </div>
+
+                <div class="row">
+                    <div class="col-2"><span class="left-inner">any of these words:</span></div>
+                    <div class="col-6"><input class="jfk-textinput" value="" autofocus="autofocus" id="xX4UFf" name="as_q" type="text"></div>
+                    <div class="right-inner col-4">Type <span class="right-span">OR</span> between all the words you want: <span class="right-span">miniature or standard</span></div>
+                </div>
+
+                <div class="row">
+                    <div class="col-2"><span class="left-inner">none of these words:</span></div>
+                    <div class="col-6"><input class="jfk-textinput" value="" autofocus="autofocus" id="xX4UFf" name="as_q" type="text"></div>
+                    <div class="right-inner col-4">Put a minus sign just before words that you don´t want: <span class="right-span"> -rodent, -"Jack Russel" </span></div>
+                </div>
+
+                <div class="row">
+                    <div class="col-2"><span class="left-inner">numbers ranging from:</span></div>
+                    <div class="col-6 duo"><input class="jfk-two" value="" autofocus="autofocus" id="xX4UFf" name="as_q" type="text"><span>  to  </span><input class="jfk-two" value="" autofocus="autofocus" id="xX4UFf" name="as_q" type="text"></div>
+                    <div class="right-inner col-4">Put two full stops between the numbers and add a unit of measurement: <span class="right-span"> 10..35 kg, €300..€500, 2010..2011 </span></div>
+                </div>
+
+            </div>
+
+            <div class="container bottom-form">
+
+            </div>
         </form>
     </div>
-    <!--Form Container-->
 
+    <!--Footer 1-->
+    <div class="container-fluid footer">
+        <p>México</p>
+    </div>
+    <!--End Footer 1-->
+
+    <!--Footer 2-->
+    <footer class="container-fluid footer">
+        <div class="left-align">
+            <p>Help</p>
+            <p>Privacy</p>
+            <p>Terms</p>
+        </div>
+    </footer>
+    <!--Footer 2-->
 
 </body>
 

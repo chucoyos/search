@@ -51,7 +51,7 @@
 }
 
 .two-button-div {
-    margin-top: 30px;
+    margin-top: 20px;
     display: flex;
     justify-content: center;
     font-size: xx-large;
@@ -64,7 +64,7 @@
     margin-right: 10px;
     margin-left: 10px;
     margin-top: 0px;
-    padding: 6px;
+    padding: 8px 20px;
     background-color: #f2f2f2;
     color: rgba(0, 0, 0, .54);
 }
@@ -114,9 +114,98 @@
     justify-content: flex-end;
     border: none;
     padding-bottom: 10px;
+    margin-right: 25px;
 }
 
 .input-container {
     display: flex;
     justify-items: center;
+}
+
+.g-offered {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 12px;
+}
+
+.brand {
+    width: 90px;
+}
+
+.appbar {
+    color: #d93025;
+    font-size: 20px;
+    margin: 15px 27px;
+}
+
+.adv-label {
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.todo-label {
+    color: #777777;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.find {
+    color: #333333;
+    font-size: 16px;
+}
+
+.left-inner {
+    color: #222222;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.right-inner {
+    color: #555555;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.right-span {
+    color: #666666;
+    font-size: 11px;
+    font-family: monospace;
+}
+
+.jfk-textinput {
+    background: #ffffff;
+    padding: 1px 8px;
+    width: 100%;
+    border: none;
+    border-color: rgb(223, 225, 229);
+    border-style: solid;
+    border-width: 1px;
+}
+
+.jfk-two {
+    background: #ffffff;
+    padding: 1px 8px;
+    width: 47.7%;
+    border: none;
+    border-color: rgb(223, 225, 229);
+    border-style: solid;
+    border-width: 1px;
+}
+
+.row {
+    padding: 10px;
+}
+
+.duo {
+    text-align: center;
+}
+
+.form-cont {
+    padding-top: 30px;
+    border-style: solid;
+    border-width: thin;
+    border-bottom: none;
+    border-right: none;
+    border-color: rgb(223, 225, 229);
 }
