@@ -98,7 +98,7 @@
 }
 
 .footer p {
-    margin-left: 10px;
+    margin-left: 20px;
     display: inline;
 }
 
@@ -136,10 +136,17 @@
 .appbar {
     color: #d93025;
     font-size: 20px;
-    margin: 15px 27px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-style: solid;
+    border-width: thin;
+    border-top: none;
+    border-left: none;
+    border-color: rgb(223, 225, 229);
 }
 
 .adv-label {
+    margin-left: 30px;
     font-size: 20px;
     font-family: Arial, sans-serif;
 }
@@ -202,10 +209,25 @@
 }
 
 .form-cont {
+    margin-left: 40px;
     padding-top: 30px;
+    padding-bottom: 20px;
     border-style: solid;
     border-width: thin;
-    border-bottom: none;
     border-right: none;
+    border-left: none;
+    border-top: none;
     border-color: rgb(223, 225, 229);
+}
+
+.right-text {
+    text-align: end;
+}
+
+.bottom-page-links {
+    margin: 40px 30px;
+}
+
+.nested-div {
+    margin-left: -38px;
 }

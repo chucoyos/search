@@ -12,7 +12,7 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="styles/styles.css">
-    <title>Google Search</title>
+    <title>Google Advanced Search</title>
 </head>
 
 <body>
@@ -51,9 +51,10 @@
         <label class="adv-label">Advanced Search</label>
     </div>
 
-    <div class="container-fluid form-cont">
+    <!--Top Form-->
+    <div class="container form-cont">
         <form action="">
-            <div class="container-fluid">
+            <div class="container nested-div">
 
                 <div class="row">
                     <div class="outer-div col-2"><span class="find">Find pages with...</span></div>
@@ -97,6 +98,91 @@
 
             </div>
         </form>
+    </div>
+    <!--End Top Form-->
+
+
+    <!--Bottom Form-->
+    <div class="container form-cont">
+        <form action="">
+            <div class="container nested-div">
+
+                <div class="row">
+                    <div class="outer-div col-2"><span class="find">Then narrow your results by...</span></div>
+                    <div class="middle-div col-6"></div>
+                    <div class="outer-div col-4"><span class="todo-label"></span></div>
+                </div>
+
+                <div class="row">
+                    <div class="col-2"><span class="left-inner">language:</span></div>
+                    <div class="col-6"><input class="jfk-textinput" value="" autofocus="autofocus" id="xX4UFf" name="as_q" type="text"></div>
+                    <div class="right-inner col-4">Find pages in the language that you select.</div>
+                </div>
+
+                <div class="row">
+                    <div class="col-2"><span class="left-inner">region:</span></div>
+                    <div class="col-6"><input class="jfk-textinput" value="" autofocus="autofocus" id="xX4UFf" name="as_q" type="text"></div>
+                    <div class="right-inner col-4">Find pages published in a particular region.</div>
+                </div>
+
+                <div class="row">
+                    <div class="col-2"><span class="left-inner">last update:</span></div>
+                    <div class="col-6"><input class="jfk-textinput" value="" autofocus="autofocus" id="xX4UFf" name="as_q" type="text"></div>
+                    <div class="right-inner col-4">Find pages updated within the time that you specify.</div>
+                </div>
+
+                <div class="row">
+                    <div class="col-2"><span class="left-inner">site or domain:</span></div>
+                    <div class="col-6"><input class="jfk-textinput" value="" autofocus="autofocus" id="xX4UFf" name="as_q" type="text"></div>
+                    <div class="right-inner col-4">Search one site<span class="right-span">(like wikipedia.org)</span> or limit your results to a domain like <span class="right-span"> .edu, .org, or .gov</span> </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-2"><span class="left-inner">terms appearig:</span></div>
+                    <div class="col-6"><input class="jfk-textinput" value="" autofocus="autofocus" id="xX4UFf" name="as_q" type="text"></div>
+                    <div class="right-inner col-4">Search for terms in the hole page, page title or web address, or links to the page you´re looking for.</div>
+                </div>
+
+                <div class="row">
+                    <div class="col-2"><span class="left-inner"><a href="#" class="">SafeSearch:</a></span></div>
+                    <div class="col-6"><input class="jfk-textinput" value="" autofocus="autofocus" id="xX4UFf" name="as_q" type="text"></div>
+                    <div class="right-inner col-4">Tell <a href="#">SafeSearch</a> whether to filter sexually explicit content.</div>
+                </div>
+
+                <div class="row">
+                    <div class="col-2"><span class="left-inner">file type:</span></div>
+                    <div class="col-6"><input class="jfk-textinput" value="" autofocus="autofocus" id="xX4UFf" name="as_q" type="text"></div>
+                    <div class="right-inner col-4">Find pages in the format that you prefer</div>
+                </div>
+
+                <div class="row">
+                    <div class="col-2"><span class="left-inner"><a href="#">usage rights:</a></span></div>
+                    <div class="col-6"><input class="jfk-textinput" value="" autofocus="autofocus" id="xX4UFf" name="as_q" type="text"></div>
+                    <div class="right-inner col-4">Find pages that you are free to use yourself.</div>
+                </div>
+
+                <div class="row">
+                    <div class="col-2"></div>
+                    <div class="col-6 right-text"><button type="submit" class="btn btn-primary btn-sm">Advanced Search</button></div>
+                    <div class="col-4"></div>
+                </div>
+
+
+            </div>
+
+            <div class="container bottom-form">
+
+            </div>
+        </form>
+    </div>
+    <!--Bottom Form-->
+
+    <div class="container-fluid bottom-page-links">
+        <h6>You can also...</h6>
+        <span class="left-inner"><a href="">Find pages thar are similar to a URL</a></span><br>
+        <span class="left-inner"><a href="">Search pages that you´ve visited</a></span><br>
+        <span class="left-inner"><a href="">Use operators in the search box</a></span><br>
+        <span class="left-inner"><a href="">Customise your search settings</a></span>
     </div>
 
     <!--Footer 1-->
